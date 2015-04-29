@@ -1,0 +1,15 @@
+"C:\Program Files\IAR Systems\Embedded Workbench 7.2\arm\bin\armproc.dll" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 7.2\arm\bin\armjlink.dll" 
+
+"C:\eraseme\n_boot\ultra\ultra\mixed_attempt\nwave\IAR\Debug\Exe\nwave_dev_kit.out" 
+
+--plugin "C:\Program Files\IAR Systems\Embedded Workbench 7.2\arm\bin\armbat.dll" 
+
+--device_macro "C:\Program Files\IAR Systems\Embedded Workbench 7.2\arm\config\debugger\SiliconLaboratories\Trace_EFM32G.dmac" 
+
+--flash_loader "C:\Program Files\IAR Systems\Embedded Workbench 7.2\arm\config\flashloader\SiliconLaboratories\FlashEFM32.board" 
+
+
+
+

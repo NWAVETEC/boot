@@ -197,6 +197,8 @@ int main (int argc, char *argv[])
 #endif
     while (ack[0] != 0x53) {
      ReadFile(hSerial, ack, 1, &bytes_read, NULL);
+     // TODO: Implement programme termination by timeout of 3 seconds.
+     // Message "Terminated due to timeout."
     }
 #if DPRINT > 0
     printf("S-ack received\n");

@@ -1,8 +1,8 @@
 Copyright: 
-Nwave www.nwavetec.com
+Nwave www.nwave.io
 
-Compilation (with MinGW): 
-gcc winloader.c -o winloader.exe
+Compilation: 
+gcc linux_loader.c -o linux_loader
 
 Run example:
-winloader.exe at_cmds.bin 4
+./linux_loader at_cmds.bin /dev/ttysUSB0

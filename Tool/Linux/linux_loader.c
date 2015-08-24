@@ -1,5 +1,5 @@
-// Author: Ruslan Gerasimov rgerasimov@nwavetec.com   shanti_shanti@mail.ru
-// Copyright: Nwave www.nwavetec.com
+// Author: Ruslan Gerasimov rgerasimov@nwave.io   shanti_shanti@mail.ru
+// Copyright: Nwave www.nwave.io
 #include <fcntl.h>
 #include <stdio.h>
 #include <string.h>
@@ -130,8 +130,7 @@ void  main ( int argc, char *argv[] )
 #endif
  	    while (ack != 0x53) {
                read(fd_serial, &ack, 1);
-	      // TODO: Implement programme termination by timeout of 3 seconds.
-	      // Message "Terminated due to timeout."
+             // if it's a timeout without 
 	    }
 #if DPRINT > 0
             printf("S-ack received\n");

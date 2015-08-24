@@ -1,5 +1,5 @@
 Copyright: 
-Nwave www.nwavetec.com
+Nwave www.nwave.io
 
 Compilation: 
 gcc linux_loader.c -o linux_loader
